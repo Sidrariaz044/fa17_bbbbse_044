@@ -23,11 +23,11 @@ class _MyAppState extends State<MyApp> {
               fontWeight: FontWeight.bold,
               fontSize: 20.0
           ),),
-        image: new Image.network('https://i.imgur.com/TyCSG9A.png'),
+        image: new Image.network('https://appicon.co/'),
         backgroundColor: Colors.yellowAccent,
         styleTextUnderTheLoader: new TextStyle(),
         photoSize: 100.0,
-        onClick: ()=>print("Flutter Egypt"),
+        onClick: ()=>print("Flutter Egypt")
         loaderColor: Colors.purple
     );
   }
