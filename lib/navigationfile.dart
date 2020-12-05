@@ -109,6 +109,7 @@ class _HomePageState extends State<HomePage> {
   void simpleDice() {
     setState(() {
       Navigator.push(context, MaterialPageRoute(builder: (context) =>  SimpleLevel()));
+      Navigator.push(context, MaterialPageRoute(builder: (context) =>  SimpleDice()));
     });
   }
 
